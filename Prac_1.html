@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Time Table</title>
+        <style>
+            #topRow{
+                background-color: white;
+                border: none;
+                padding-top: 0px;
+            }
+            th{
+                background-color: lightgray;
+            }
+            td,th{
+                border: 1px solid black;
+                text-align: center;
+                padding: 10px ;
+            }
+            #btmRow{
+                background-color: white;
+                border: none;
+                padding-top: 100px;
+            }
+            #belowTable{
+                text-align: left;
+                padding: 0px;
+            }
+            .initials{
+                font-weight: bold;
+                padding: 0px;
+            }
+            .container{
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <table style="border-collapse: collapse;" width="100%">
+                <tr>
+                    <td colspan="5" id="topRow" rowspan="2">
+                        
+                            <img src="Prac_1_image.png" alt="Marwadi University" width="400px" height="100px">
+                    </td>
+                    <td colspan="4"id="topRow" ></td>
+                    <th colspan="4" id="topRow" >FACULTY OF TECHNOLOGY<br>Department of Computer Engineering</th>
+                </tr>
+                <tr>
+                    <th colspan="5" id="topRow" style="font-weight:normal; text-align:left;">
+                        Class Room:- MB201,MB204<br>Semester:- VI<br>Class Cordinator: Prof. Krupali Gosai(MA208E)(8000151591)</th>
+                    <td colspan="4"id="topRow" ></td>
+                    <th colspan="3" id="topRow" style="font-weight:normal; text-align:left;">W.E. Date:- 09-01-2023<br>Division: TC3</th>
+                </tr>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Time</th>
+                    <th colspan="3">Monday</th>
+                    <th colspan="3">Tuesday</th>
+                    <th colspan="3">Wednesday</th>
+                    <th colspan="3">Thursday</th>
+                    <th colspan="3">Friday</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>7:30 - 8:25</td>
+                    <td colspan="3">WT-KT<br>MB204</td>
+                    <td rowspan="2">A<br>WT<br>KT<br>LAB 11</td>
+                    <td rowspan="2">B<br>CS<br>KG<br>LAB 12</td>
+                    <td rowspan="2">C<br>DEPM<br>MM<br>LAB 15</td>
+                    <td rowspan="2">A<br>.NET<br>JR<br>LAB 11</td>
+                    <td rowspan="2">B<br>WT<br>KT<br>LAB 7</</td>
+                    <td rowspan="2">C<br>CS<br>KG<br>LAB 12</</td>
+                    <td rowspan="2">A<br>CS<br>KG<br>LAB 9</td>
+                    <td rowspan="2">B<br>CD<br>HC<br>LAB 16</td>
+                    <td rowspan="2">C<br>SE<br>KM1<br>LAB 13</td>
+                    <td colspan="3">BB - BMY<br>MB201</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>8:25 - 9:20</td>
+                    <td colspan="3">SE - KM1<br>MB204</td>
+                    <td colspan="3">SE - KM1<br>MB201</td>
+                </tr>
+                <tr style="background-color: lightgray;">
+                    <td></td>
+                    <th>9:20 - 9:30</th>
+                    <th colspan="15">Tea Break</th>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>9:30 - 10:25</td>
+                    <td colspan="3">.NET - JR<br>MB201</td>
+                    <td colspan="3">CD - HC<br>MB204</td>
+                    <td colspan="3">CD - HC<br>MB204</td>
+                    <td colspan="3">CA - 2 - HM<br>MB204</td>
+                    <td colspan="3">CA - 2 - VSA<br>MB204</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>10:25 - 11:20</td>
+                    <td colspan="3">CS - KG<br>MB201</td>
+                    <td colspan="3">NET - JR<br>MB204</td>
+                    <td colspan="3">WT - KT<br>MB204</td>
+                    <td colspan="3">SE - KM1<br>MB204</td>
+                    <td colspan="3">CS - KG<br>MB204</td>
+                </tr>
+                <tr style="background-color: lightgray;">
+                    <td></td>
+                    <th>11:20 - 11:50</th>
+                    <th colspan="15">Tea Break</th>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>11:50 - 12:45</td>
+                    <td rowspan="2">A<br>WT<br>KT<br>LAB 11</td>
+                    <td rowspan="2">B<br>CS<br>KG<br>LAB 12</td>
+                    <td rowspan="2">C<br>DEPM<br>MM<br>LAB 15</td>
+                    <td colspan="3">CS - KG<br>MB204</td>
+                    <td rowspan="2">A<br>DEPM<br>MM<br>LAB 11</td>
+                    <td rowspan="2">B<br>SE<br>KM1<br>LAB 12</td>
+                    <td rowspan="2">C<br>CD<br>HC<br>LAB 15</td>
+                    <td colspan="3">.NET - JR<br>MB204</td>
+                    <td rowspan="2">A<br>CD<br>HC<br>LAB 16</td>
+                    <td rowspan="2">B<br>.NET<br>JR<br>LAB 15</td>
+                    <td rowspan="2">C<br>WT<br>HC<br>LAB 12</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>12:45 - 1:40</td>
+                    <td colspan="3">WT - KT<br>MB204</td>
+                    <td colspan="3">CD - HC<br>MB204</td>
+                </tr>
+                <tr>
+                    <td colspan="17"></td>
+                </tr>
+                <tr  style="background-color: lightgray;">
+                    <th colspan="5">SUBJECT INITIALS, NAMES AND CODES</th>
+                    <th colspan="4">LAB PREFERENCES</th>
+                    <th colspan="8">FACULTY INITIALS AND NAMES</th>
+                </tr>
+                <tr>
+                    <td class="initials">SE</td>
+                    <td id="belowTable" class="initials">01IT0601</td>
+                    <td colspan="3" id="belowTable">Software Engineering</td>
+                    <td class="initials">SE</td>
+                    <td colspan="3" id="belowTable">LAB 12, LAB 13</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">JR</td>
+                    <td colspan="3" id="belowTable">Prof. Jaydeep Ratanpara</td>
+                </tr>
+                <tr>
+                    <td class="initials">CD</td>
+                    <td id="belowTable" class="initials">01CE0601</td>
+                    <td colspan="3" id="belowTable">Compiler Design</td>
+                    <td class="initials">CD</td>
+                    <td colspan="3" id="belowTable">LAB 15, LAB 16</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">HC</td>
+                    <td colspan="3" id="belowTable">Prof. Happy Chapla</td>
+                </tr>
+                <tr>
+                    <td class="initials">.NET</td>
+                    <td id="belowTable" class="initials">01CE0602</td>
+                    <td colspan="3" id="belowTable">.NET Technologies</td>
+                    <td class="initials">.NET</td>
+                    <td colspan="3" id="belowTable">LAB 11</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">KT</td>
+                    <td colspan="3" id="belowTable">Prof. Kajal Tanchak</td>
+                </tr>
+                <tr>
+                    <td class="initials">WT</td>
+                    <td id="belowTable" class="initials">01IT0602</td>
+                    <td colspan="3" id="belowTable">Web Technology</td>
+                    <td class="initials">WT</td>
+                    <td colspan="3" id="belowTable">LAB 11, LAB 7</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">KM1</td>
+                    <td colspan="3" id="belowTable">Prof. Krishnand Mishra</td>
+                </tr>
+                <tr>
+                    <td class="initials">CS</td>
+                    <td id="belowTable" class="initials">01CE0604</td>
+                    <td colspan="3" id="belowTable">Cyber Security</td>
+                    <td class="initials">CS</td>
+                    <td colspan="3" id="belowTable">LAB 12, LAB 9</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">KG</td>
+                    <td colspan="3" id="belowTable">Prof. Krupali Gosai</td>
+                </tr>
+                <tr>
+                    <td class="initials">DEPM</td>
+                    <td id="belowTable" class="initials">01CE0606</td>
+                    <td colspan="3" id="belowTable">Design Engineering and Project Management</td>
+                    <td class="initials">DEPM</td>
+                    <td colspan="3" id="belowTable">LAB 15, LAB 11</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">DK</td>
+                    <td colspan="3" id="belowTable">Prof. Drashti Kanani</td>
+                </tr>
+                <tr>
+                    <td class="initials">BB</td>
+                    <td id="belowTable" class="initials">01CR0601</td>
+                    <td colspan="3" id="belowTable">Bussiness Benchmark</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">BJY</td>
+                    <td colspan="3" id="belowTable">Prof. Brijmohan Yajnik</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">MM</td>
+                    <td colspan="3" id="belowTable">Prof. Monisha Mohan</td>
+                </tr>
+                <tr>
+                    <td colspan="5" id="belowTable">No. of Students: 74</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">VSA</td>
+                    <td colspan="3" id="belowTable">Prof. Viral Ashara</td>
+                </tr>
+                <tr>
+                    <td colspan="5" id="belowTable">No. of Lab Batchs: 03</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td id="belowTable" class="initials">HM</td>
+                    <td colspan="3" id="belowTable">Prof. Hardik Majithiya</td>
+                </tr>
+                <tr>
+                    <th colspan="5" id="btmRow">OFFLINE TIME-TABLE INCHARGE</th>
+                    <th colspan="4" id="btmRow">ONLINE TIME-TABLE INCHARGE</th>
+                    <th colspan="5" id="btmRow">H.O.D.</th>
+                    <th colspan="3" id="btmRow">DEAN</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
+
+<!-- 
+    <table>
+        <tr>
+            <th>Sr. No.</th>
+            <th>Time</th>
+            <th colspan="3">Monday</th>
+            <th colspan="3">Tuesday</th>
+            <th colspan="3">Wednesday</th>
+            <th colspan="3">Thursday</th>
+            <th colspan="3">Friday</th>
+        </tr>
+        <tr>
+            <td>1</td>
+
+            <td>7:30 - 8:25</td>
+            
+            <td colspan="3">WT-KT<br>MB204</td>
+
+            <td rowspan="2">A<br>WT<br>KT<br>LAB 11</td>
+            <td rowspan="2">B<br>CS<br>KG<br>LAB 12</td>
+            <td rowspan="2">C<br>DEPM<br>MM<br>LAB 15</td>
+            
+            <td rowspan="2">A<br>.NET<br>JR<br>LAB 11</td>
+            <td rowspan="2">B<br>WT<br>KT<br>LAB 7</td>
+            <td rowspan="2">C<br>CS<br>KG<br>LAB 12</td>
+            
+            <td rowspan="2">A<br>CS<br>KG<br>LAB 9</td>
+            <td rowspan="2">B<br>CD<br>HC<br>LAB 16</td>
+            <td rowspan="2">C<br>SE<br>KM1<br>LAB 13</td>
+
+            <td  colspan="3">BB-BMT<br>MB201</td>
+        </tr>
+        <tr>
+            <td>2</td>
+
+            <td>8:25 - 9:20</td>
+            
+            <td colspan="3">SE - KM1<br>MB204</td>
+
+            <td colspan="3">SE-KM1<br>MB201</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>9:20 - 9:30</td>
+            <td colspan="15">Tea Break</td>
+        </tr>
+        <tr>
+            <td>3</td>
+
+            <td>9:30 - 10:25</td>
+
+            <td colspan="3">.NET - JR<br>MB201</td>
+            <td colspan="3">CD - HC<br>MB204</td>
+            <td colspan="3">CD - HC<br>MB204</td>
+            <td colspan="3">CA - 2 - HM<br>MB204</td>
+            <td colspan="3">CA - 2 - VSA<br>MB204</td>
+        </tr>
+        <tr>
+            <td>4</td>
+
+            <td>10:25 - 11:20</td>
+
+            <td colspan="3">CS - KG<br>MB201</td>
+            <td colspan="3">.NET - JR<br>MB204</td>
+            <td colspan="3">WT - KT<br>MB204</td>
+            <td colspan="3">SE - KM1<br>MB204</td>
+            <td colspan="3">CS - KG<br>MB204</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>11:20 - 11:50</td>
+            <td colspan="15">Tea Break</td>
+        </tr>
+        <tr>
+            <td>5</td>
+
+            <td>11:50 - 12:45</td>
+        
+            <td rowspan="2">A<br>WT<br>KT<br>LAB 11</td>
+            <td rowspan="2">B<br>CS<br>KG<br>LAB 12</td>
+            <td rowspan="2">C<br>DEPM<br>MM<br>LAB 15</td>
+
+            <td  colspan="3">CS - KG<br>MB204</td>
+
+            <td rowspan="2">A<br>DEPM<br>MM<br>LAB 11</td>
+            <td rowspan="2">B<br>SE<br>KM1<br>LAB 12</td>
+            <td rowspan="2">C<br>CD<br>HC<br>LAB 15</td>
+
+            <td  colspan="3">.NET - JR<br>MB204</td>
+
+            <td rowspan="2">A<br>CD<br>HC<br>LAB 16</td>
+            <td rowspan="2">B<br>.NET<br>JR<br>LAB 15</td>
+            <td rowspan="2">C<br>WT<br>HC<br>LAB 12</td>
+        </tr>
+        <tr>
+            <td>6</td>
+
+            <td>12:45 - 1:40</td>
+
+            <td colspan="3">WT-KT<br>MB204</td>
+            <td colspan="3">CD - HC<br>MB204</td>
+
+        </tr>
+        <tr></tr>
+    </table>
+ -->
